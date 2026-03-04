@@ -79,6 +79,18 @@ body.light-mode{
     will-change:transform, background;
 }
 
+.switch-wrapper {
+    -webkit-tap-highlight-color: transparent;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.switch-wrapper:focus {
+    outline: none;
+}
+
 /* Subtle hover lift */
 .switch-wrapper:hover .switch-knob{
     transform:scale(1.04);
@@ -145,4 +157,5 @@ body.light-mode{
     });
 </script>
 </body>
+
 </html>
